@@ -1,10 +1,10 @@
 # Higher-Order Network Analytics for Time-Stamped Data on Social Interactions
 
-In this repository, wou will find all material needed to complete the tutorial on Higher-Order Network Analytics for Time-Stamped Data on Social Interactions, which will be held on September 8th at [SUMMER SCHOOL NAME]().
+In this repository, wou will find all material needed to complete the tutorial on Higher-Order Network Analytics for Time-Stamped Data on Social Interactions, which will be held on September 8th at [Summer School on Data Science]().
 
 A detailed [tutorial schedule]() as well as [step-by-step setup instructions]() can be found on the [tutorial website]().
 
-While you can manually download all necessary files, we strongly recommend to clone this repository to obtain a local, sychronised copy of all material via `git`. Assuming you have a local `git` installation, you can do this as follows:  
+While you can manually download all necessary files, we strongly recommend to clone this repository to obtain a local, sychronised copy of all material via `git`. Assuming you have a local `git` installation, you can do this as follows:
 
 `git clone https://github.com/IngoScholtes/eurocss2019-tutorial`
 
