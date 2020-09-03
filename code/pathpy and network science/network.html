@@ -207,8 +207,8 @@ hr.tooltip-hr {
 }
 
 </style>
-<div id="xd6fcffec95fd4436854e4b4f48ed8658"></div>
-<div id="x23b8ad02deab41029913f7ba0e9a7655"></div>
+<div id="xb09a70fb699c4cfca2e0c507b9292ea7"></div>
+<div id="xf1cdafb1ac01416e935a1c42183e151c"></div>
 <script charset="utf-8" src="https://d3js.org/d3.v5.min.js"></script>
 
 <script charset="utf-8" src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
@@ -231,7 +231,7 @@ hr.tooltip-hr {
  require(['d3'], function(d3){
    var config = {"width": 1200.0, "height": 1000.0, "unit": "px", "dpi": 96, "margin": null, "layout": "euclidean", "temporal": false, "coordinates": true, "euclidean": true, "min_max_node_size": null, "min_max_edge_size": null, "keep_aspect_ratio": true, "template": null, "css": null, "backend": ["tikz"], "fileformat": ["tex"], "latex_class_options": "", "interactiv": {"backend": ["d3js"], "fileformat": ["html"]}, "animation": {"enabled": false, "begin": null, "end": null, "steps": 20, "speed": 100, "unit": "seconds"}, "label": {"centered": true, "enabled": true, "color": "white"}, "curved": true, "directed": true, "widgets": {"tooltip": {"enabled": false, "size": "100px"}, "save": {"title": "Save", "enabled": true, "tooltip": "Save the network as [svg] or [png]."}, "zoom": {"title": "Zoom", "enabled": true, "tooltip": "Zoom-in with [+] <br> zoom-out with [-] <br> or reset zoom with [Reset]. <br> Furthermore, with [Shift+mouse wheel] you can also zoom."}, "filter": {"title": "Filter", "enabled": false, "tooltip": "Filter the nodes base on given groups.", "groups": ["all"]}, "search": {"title": "Search", "enabled": true, "tooltip": "Search for a node in the network."}, "layout": {"title": "Layout", "enabled": true, "tooltip": "Change the layout of the Network. Per default a [Force] directed layout is used. If x and y coordinates are given, an [Coord] layout can be used."}, "animation": {"title": "Animation", "enabled": true, "tooltip": "Play and pause animation of the temproal network."}, "aggregation": {"title": "Aggregation", "enabled": true, "tooltip": "Aggregate time steps.", "past": 2, "future": 2, "aggregation": 1}}}
 
-   var data = {"nodes": [{"uid": "a", "size": 30.0, "color": "orange", "opacity": 0.2, "coordinates": [119.0, 981.0], "id_as_label": true}, {"uid": "b", "size": 10.0, "color": "blue", "opacity": 0.2, "coordinates": [119.0, 19.0], "id_as_label": true}, {"uid": "c", "size": 20.0, "color": "red", "opacity": 0.2, "coordinates": [1081.0, 981.0], "id_as_label": true}], "links": [{"uid": "0x1b1230cfd90", "size": 2.0, "color": "black", "opacity": 1, "source": "a", "target": "b", "directed": true, "curved": 0.5}, {"uid": "0x1b1230cf460", "size": 2.0, "color": "black", "opacity": 1, "source": "b", "target": "c", "directed": true, "curved": 0.5}]}
+   var data = {"nodes": [{"uid": "a", "size": 30.0, "color": "orange", "opacity": 0.2, "coordinates": [119.0, 981.0], "id_as_label": true}, {"uid": "b", "size": 10.0, "color": "blue", "opacity": 0.2, "coordinates": [119.0, 19.0], "id_as_label": true}, {"uid": "c", "size": 20.0, "color": "red", "opacity": 0.2, "coordinates": [1081.0, 981.0], "id_as_label": true}], "links": [{"uid": "0x1e10492aac0", "size": 2.0, "color": "black", "opacity": 1, "source": "a", "target": "b", "directed": true, "curved": 0.5}, {"uid": "0x1e10492ac70", "size": 2.0, "color": "black", "opacity": 1, "source": "b", "target": "c", "directed": true, "curved": 0.5}]}
 
    function tooltip(tooltipId, width){
      // Local variable to hold tooltip div for
@@ -1180,7 +1180,7 @@ hr.tooltip-hr {
 
 
    var myNetwork = network(config);
-   myNetwork("#x23b8ad02deab41029913f7ba0e9a7655", data);
+   myNetwork("#xf1cdafb1ac01416e935a1c42183e151c", data);
 
    /* function widgets(container,config,network){ */
 
@@ -1487,7 +1487,7 @@ hr.tooltip-hr {
       }; */
 
 
-   setupMenu("#xd6fcffec95fd4436854e4b4f48ed8658",config,myNetwork);
+   setupMenu("#xb09a70fb699c4cfca2e0c507b9292ea7",config,myNetwork);
 
 
    function sliderMenu(container,config,network){
@@ -1943,6 +1943,6 @@ hr.tooltip-hr {
    }; // End of sliderMenu
 
    if (config.temporal === true){
-     sliderMenu("#xd6fcffec95fd4436854e4b4f48ed8658",config,myNetwork);};
+     sliderMenu("#xb09a70fb699c4cfca2e0c507b9292ea7",config,myNetwork);};
  });
 </script>

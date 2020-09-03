@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz-network}
+\begin{document}
+\begin{tikzpicture}
+\tikzset{every node}=[font=\sffamily\bfseries]
+\clip (0,0) rectangle (31.875,26.5625);
+\Vertex[x=3.161,y=0.505,size=0.7969,color=orange,opacity=0.2,IdAsLabel]{a}
+\Vertex[x=3.161,y=26.058,size=0.2656,color=blue,opacity=0.2,IdAsLabel]{b}
+\Vertex[x=28.714,y=0.505,size=0.5312,color=red,opacity=0.2,IdAsLabel]{c}
+\Edge[,lw=1.5,color=black,opacity=1,bend=-36.8699,Direct](a)(b)
+\Edge[,lw=1.5,color=black,opacity=1,bend=-36.8699,Direct](b)(c)
+\end{tikzpicture}
+\end{document}
