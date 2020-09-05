@@ -207,8 +207,8 @@ hr.tooltip-hr {
 }
 
 </style>
-<div id="xb09a70fb699c4cfca2e0c507b9292ea7"></div>
-<div id="xf1cdafb1ac01416e935a1c42183e151c"></div>
+<div id="x7642a5148a854cb0980545bb3529b806"></div>
+<div id="x6ed6a6d7b5da48a893ccc4fdd61ae3b0"></div>
 <script charset="utf-8" src="https://d3js.org/d3.v5.min.js"></script>
 
 <script charset="utf-8" src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
@@ -229,9 +229,9 @@ hr.tooltip-hr {
  };
 
  require(['d3'], function(d3){
-   var config = {"width": 1200.0, "height": 1000.0, "unit": "px", "dpi": 96, "margin": null, "layout": "euclidean", "temporal": false, "coordinates": true, "euclidean": true, "min_max_node_size": null, "min_max_edge_size": null, "keep_aspect_ratio": true, "template": null, "css": null, "backend": ["tikz"], "fileformat": ["tex"], "latex_class_options": "", "interactiv": {"backend": ["d3js"], "fileformat": ["html"]}, "animation": {"enabled": false, "begin": null, "end": null, "steps": 20, "speed": 100, "unit": "seconds"}, "label": {"centered": true, "enabled": true, "color": "white"}, "curved": true, "directed": true, "widgets": {"tooltip": {"enabled": false, "size": "100px"}, "save": {"title": "Save", "enabled": true, "tooltip": "Save the network as [svg] or [png]."}, "zoom": {"title": "Zoom", "enabled": true, "tooltip": "Zoom-in with [+] <br> zoom-out with [-] <br> or reset zoom with [Reset]. <br> Furthermore, with [Shift+mouse wheel] you can also zoom."}, "filter": {"title": "Filter", "enabled": false, "tooltip": "Filter the nodes base on given groups.", "groups": ["all"]}, "search": {"title": "Search", "enabled": true, "tooltip": "Search for a node in the network."}, "layout": {"title": "Layout", "enabled": true, "tooltip": "Change the layout of the Network. Per default a [Force] directed layout is used. If x and y coordinates are given, an [Coord] layout can be used."}, "animation": {"title": "Animation", "enabled": true, "tooltip": "Play and pause animation of the temproal network."}, "aggregation": {"title": "Aggregation", "enabled": true, "tooltip": "Aggregate time steps.", "past": 2, "future": 2, "aggregation": 1}}}
+   var config = {"width": 800.0, "height": 550.0, "unit": "px", "dpi": 96, "margin": null, "layout": "euclidean", "temporal": false, "coordinates": true, "euclidean": true, "min_max_node_size": null, "min_max_edge_size": null, "keep_aspect_ratio": true, "forceCharge": -10, "forceRepel": -300, "forceAlpha": 0.1, "chargeDistance": 200, "repelDistance": 200, "velocityDecay": 0.2, "alphaMin": 0.1, "lookoutStrokeWidth": 1, "lookoutOpacity": 0.5, "lookoutWeight": 0.0, "radiusMinSize": 4, "radiusMaxSize": 16, "nodeTransitionDuration": 100, "defaultEdgeWeight": 1, "template": null, "css": null, "backend": ["tikz"], "fileformat": ["tex"], "latex_class_options": "", "interactiv": {"backend": ["d3js"], "fileformat": ["html"]}, "animation": {"enabled": false, "begin": null, "end": null, "steps": 20, "speed": 100, "unit": "seconds"}, "label": {"centered": true, "enabled": true, "color": "white"}, "label_centered": true, "label_enabled": true, "label_color": "white", "curved": true, "directed": true, "widgets": {"tooltip": {"enabled": false, "size": "100px"}, "save": {"title": "Save", "enabled": true, "tooltip": "Save the network as [svg] or [png]."}, "zoom": {"title": "Zoom", "enabled": true, "tooltip": "Zoom-in with [+] <br> zoom-out with [-] <br> or reset zoom with [Reset]. <br> Furthermore, with [Shift+mouse wheel] you can also zoom."}, "filter": {"title": "Filter", "enabled": false, "tooltip": "Filter the nodes base on given groups.", "groups": ["all"]}, "search": {"title": "Search", "enabled": true, "tooltip": "Search for a node in the network."}, "layout": {"title": "Layout", "enabled": true, "tooltip": "Change the layout of the Network. Per default a [Force] directed layout is used. If x and y coordinates are given, an [Coord] layout can be used."}, "animation": {"title": "Animation", "enabled": true, "tooltip": "Play and pause animation of the temproal network."}, "aggregation": {"title": "Aggregation", "enabled": true, "tooltip": "Aggregate time steps.", "past": 2, "future": 2, "aggregation": 1}}}
 
-   var data = {"nodes": [{"uid": "a", "size": 30.0, "color": "orange", "opacity": 0.2, "coordinates": [119.0, 981.0], "id_as_label": true}, {"uid": "b", "size": 10.0, "color": "blue", "opacity": 0.2, "coordinates": [119.0, 19.0], "id_as_label": true}, {"uid": "c", "size": 20.0, "color": "red", "opacity": 0.2, "coordinates": [1081.0, 981.0], "id_as_label": true}], "links": [{"uid": "0x1e10492aac0", "size": 2.0, "color": "black", "opacity": 1, "source": "a", "target": "b", "directed": true, "curved": 0.5}, {"uid": "0x1e10492ac70", "size": 2.0, "color": "black", "opacity": 1, "source": "b", "target": "c", "directed": true, "curved": 0.5}]}
+   var data = {"nodes": [{"uid": "a", "size": 30.0, "color": "orange", "opacity": 0.2, "coordinates": [144.0, 531.0], "id_as_label": true}, {"uid": "b", "size": 10.0, "color": "blue", "opacity": 0.2, "coordinates": [144.0, 19.0], "id_as_label": true}, {"uid": "c", "size": 20.0, "color": "red", "opacity": 0.2, "coordinates": [656.0, 531.0], "id_as_label": true}], "links": [{"uid": "0x25d6db89a90", "size": 2.0, "color": "black", "opacity": 1, "source": "a", "target": "b", "directed": true, "curved": 0.5}, {"uid": "0x25d6d9214f0", "size": 2.0, "color": "black", "opacity": 1, "source": "b", "target": "c", "directed": true, "curved": 0.5}]}
 
    function tooltip(tooltipId, width){
      // Local variable to hold tooltip div for
@@ -329,13 +329,33 @@ hr.tooltip-hr {
      var temporal = config.temporal || false;
      var tooltipSize = config.widgets.tooltip.size || '100px';
 
+     var forceCharge = config.forceCharge || -30;//-20; // -30
+     var forceRepel = config.forceRepel || -100;//-200; // -100
+     var forceAlpha = config.forceAlpha || 0.1;//0.0; // 0.1
+     var chargeDistance = config.chargeDistance || 200;//400; //200
+     var repelDistance = config.repelDistance || 200;//100; //200
+     var velocityDecay = config.velocityDecay || .2;
+     var alphaMin = config.alphaMin || 0.1;
 
-     var labelCentered = config.label.centered || false;
-     var labelEnabled = config.label.enabled || false;
-     var labelColor = config.label.color || '#fff';
+     var defaultEdgeWeight = config.defaultEdgeWeight || 1;
+
+     var nodeTransitionDuration= config.nodeTransitionDuration || 100;
+
+     /* var labelCentered = config.label.centered || false;
+      * var labelEnabled = config.label.enabled || false;
+      * var labelColor = config.label.color || '#fff'; */
+
+     var labelCentered = config.label_centered || false;
+     var labelEnabled = config.label_enabled || false;
+     var labelColor = config.label_color || '#fff';
 
      var curved = config.curved || false;
      var directed = config.directed || false;
+
+     var lookoutStrokeWidth = config.lookoutStrokeWidth || 1;
+     var lookoutOpacity = config.lookoutOpacity || .5;
+     var lookoutWeight = config.lookoutWeight || 0.0;
+     var lookoutColor = config.lookoutColor || 'gray';
 
      var radiusMinSize = config.radiusMinSize || 4;
      var radiusMaxSize = config.radiusMaxSize || 16;
@@ -510,11 +530,16 @@ hr.tooltip-hr {
      // Function which returns the object weight if defined
      // otherwise a default value
      function getWeight(d){
-       if (typeof d.weight === "undefined"){
-         return 1
-       } else {
-         return d.weight
-       }
+       if ((d.time >= time.past && d.time < time.time)||
+           (d.time > time.aggregated && d.time <= time.future)){
+         return lookoutWeight;
+       }else{
+         if (typeof d.weight === "undefined"){
+           return defaultEdgeWeight;
+         } else {
+           return d.weight
+       };
+       };
      }
 
      // Function which returns the object weight if defined
@@ -524,6 +549,27 @@ hr.tooltip-hr {
          return 6
        } else {
          return d.size
+       }
+     }
+
+
+     // Function which returns the object weight if defined
+     // otherwise a default value
+     function getStrokeWidth(d){
+       if (typeof d.size === "undefined"){
+         return 1.5
+       } else {
+         return d.size
+       }
+     }
+
+     // Function which returns the object weight if defined
+     // otherwise a default value
+     function getOpacity(d){
+       if (typeof d.opacity === "undefined"){
+         return 1.
+       } else {
+         return d.opacity
        }
      }
 
@@ -537,12 +583,53 @@ hr.tooltip-hr {
        }
      }
 
+     /* function marker (color) {
+      *   var val;
+      *   svg.append("svg:defs").selectAll("marker")
+      *      .data([val])
+      *      .enter().append("svg:marker")
+      *      .attr("id", String)
+      *      .attr("viewBox", "0 -5 10 10")
+      *      .attr("refX", 20)
+      *      .attr("refY", 0)
+      *      .attr("markerWidth", 6)
+      *      .attr("markerHeight", 6)
+      *      .attr("orient", "auto")
+      *      .style("fill", color)
+      *      .append("svg:path")
+      *      .attr("d", "M0,-5L10,0L0,5");
+      *   return "url(#" +val+ ")";
+      * };
+
+      */
+     function marker (color) {
+       var reference;
+       svg.append("svg:defs").selectAll("marker")
+          .data([reference])
+          .enter().append("svg:marker")
+          .attr("id", String)
+          .attr("viewBox", "0 -5 10 10")
+          .attr("refX", 10)  // This sets how far back it sits, kinda
+          .attr("refY", -0)
+          .attr("markerWidth", 6)
+          .attr("markerHeight", 6)
+          .attr("orient", "auto")
+          .append("svg:path")
+          .attr('class','arrow')
+          .attr("d", "M0,-5L10,0L0,5")
+          .style('opacity',.7)
+          .style("fill", 'gray');
+       return "url(#" + reference + ")";
+     };
+
+
+
      // Here we create a force layout
      // It is just the 'simulation' and will have
      // forces added to it later
      var simulation = d3.forceSimulation()
-                        .velocityDecay(0.2)
-                        .alphaMin(0.1)
+                        .velocityDecay(velocityDecay)
+                        .alphaMin(alphaMin)
                         .on('tick', ticked)
                         .on('end', ended);
 
@@ -598,27 +685,26 @@ hr.tooltip-hr {
         *    .attr('fill', '#999')
         *    .style('stroke','none'); */
 
-       // build the arrow.
-       svg.append("svg:defs").selectAll("marker")
-          .data(["end"])      // Different link/path types can be defined here
-          .enter().append("svg:marker")    // This section adds in the arrows
-          .attr("id", String)
-          .attr("viewBox", "0 -5 10 10")
-          .attr("refX", 10)
-          .attr("refY", -0)
-          .attr("markerWidth", 6)
-          .attr("markerHeight", 6)
-          .attr("orient", "auto")
-          .append("svg:path")
-          .attr('class','arrow')
-          .attr("d", "M0,-5L10,0L0,5");
-
-
+       /* build the arrow.
+        *         svg.append("svg:defs").selectAll("marker")
+        *    .data(["end"])      // Different link/path types can be defined here
+        *    .enter().append("svg:marker")    // This section adds in the arrows
+        *    .attr("id", String)
+        *    .attr("viewBox", "0 -5 10 10")
+        *    .attr("refX", 10)
+        *    .attr("refY", -0)
+        *    .attr("markerWidth", 6)
+        *    .attr("markerHeight", 6)
+        *    .attr("orient", "auto")
+        *    .append("svg:path")
+        *    .attr('class','arrow')
+        *    .attr("d", "M0,-5L10,0L0,5"); */
 
 
        // render the network
        render();
      };
+
 
      /*
       * This function is executed any time the
@@ -676,7 +762,7 @@ hr.tooltip-hr {
 
        // Now we need to set the alpha
        // of the simulation when we restart.
-       simulation.alpha(1).restart();
+       simulation.alpha(forceAlpha).restart();
      }
 
      /*
@@ -692,7 +778,7 @@ hr.tooltip-hr {
        // the layout of the network is all
        // handled in a link force
        var linkForce = d3.forceLink()
-                         .distance(50)
+                         //.distance(10)
                          .strength(function(d){return getWeight(d);})
                          .links(edgesData);
 
@@ -705,10 +791,17 @@ hr.tooltip-hr {
        // setup many body force to have nodes repel one another
        // increasing the chargePower here to make nodes stand about
        chargePower = 1.0;
-       simulation.force('charge', d3.forceManyBody().strength(charge));
+       simulation.force('charge', d3.forceManyBody()
+                                    .strength(forceCharge)
+                                    .distanceMax(chargeDistance));
+
+       simulation.force("repel", d3.forceManyBody()
+                                   .strength(forceRepel)
+                                   .distanceMax(repelDistance));
+
        // kill x and y forces used in radial layout
-       simulation.force('x', null);
-       simulation.force('y', null);
+       // simulation.force('x', null);
+       // simulation.force('y', null);
 
        // setting taken from pathpy2
        // TODO fix theses setting
@@ -716,7 +809,7 @@ hr.tooltip-hr {
        // ingos setting
        // simulation.force("charge", d3.forceManyBody().strength(-20).distanceMax(400));
        // simulation.force("repelForce", d3.forceManyBody().strength(-200).distanceMax(100));
-       // simulation.alphaTarget(0.0);
+       simulation.alphaTarget(forceAlpha);
 
      }
 
@@ -910,6 +1003,7 @@ hr.tooltip-hr {
        nodes = nodes.merge(nodesE);
        //nodes = nodes.merge(myText);
        nodes.transition() // transition to change size and color
+            .duration(nodeTransitionDuration)
             .attr('r', function (d) { return scaleRadius(d); })
             .style('fill', function (d) { return getColor(d); })
             .style("opacity", 1);
@@ -955,24 +1049,40 @@ hr.tooltip-hr {
                          .classed('edge', true)
                          .classed('edge_active', true)
                          .classed('edge_highlight', false)
-
+                         .style('opacity', function (d) { return getOpacity(d); })
+                         .style('stroke-width', function (d) { return getStrokeWidth(d); })
+                         .style('stroke', function (d) { return getColor(d); })
        if (directed){
-         edgesE.attr("marker-end", "url(#end)");};
+         edgesE.attr("marker-end", function (d) { return marker(getColor(d)); });
+       };
 
        edges.exit().remove();
 
        edges = edges.merge(edgesE);
-     }
 
-     /*
-      * Disable observed but not active edges
-      */
-     function renderTemporalEdges() {
+       edges.transition() // transition to change size and color
+            .style('opacity', function (d) { return getOpacity(d); })
+            .style('stroke-width', function (d) { return getStrokeWidth(d); })
+            .style('stroke', function (d) { return getColor(d); });
+              }
+
+       /*
+        * Disable observed but not active edges
+        */
+       function renderTemporalEdges() {
        edges.classed('edge_active',function(d){
          if ((d.time >= time.past && d.time < time.time)||
              (d.time > time.aggregated && d.time <= time.future)){
+           d3.select(this)
+             .style('stroke-width',lookoutStrokeWidth)
+             //.style('stroke',lookoutColor)
+             .style('opacity',lookoutOpacity);
            return false;
          }else{
+           d3.select(this)
+             .style('opacity', function (d) { return getOpacity(d); })
+             .style('stroke-width', function (d) { return getStrokeWidth(d); })
+             .style('stroke', function (d) { return getColor(d); });
            return true;
          }
        });
@@ -1180,7 +1290,7 @@ hr.tooltip-hr {
 
 
    var myNetwork = network(config);
-   myNetwork("#xf1cdafb1ac01416e935a1c42183e151c", data);
+   myNetwork("#x6ed6a6d7b5da48a893ccc4fdd61ae3b0", data);
 
    /* function widgets(container,config,network){ */
 
@@ -1487,7 +1597,7 @@ hr.tooltip-hr {
       }; */
 
 
-   setupMenu("#xb09a70fb699c4cfca2e0c507b9292ea7",config,myNetwork);
+   setupMenu("#x7642a5148a854cb0980545bb3529b806",config,myNetwork);
 
 
    function sliderMenu(container,config,network){
@@ -1943,6 +2053,6 @@ hr.tooltip-hr {
    }; // End of sliderMenu
 
    if (config.temporal === true){
-     sliderMenu("#xb09a70fb699c4cfca2e0c507b9292ea7",config,myNetwork);};
+     sliderMenu("#x7642a5148a854cb0980545bb3529b806",config,myNetwork);};
  });
 </script>
