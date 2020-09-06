@@ -207,8 +207,8 @@ hr.tooltip-hr {
 }
 
 </style>
-<div id="x7642a5148a854cb0980545bb3529b806"></div>
-<div id="x6ed6a6d7b5da48a893ccc4fdd61ae3b0"></div>
+<div id="xfc5252a3196044c6ab5b0ccf6f76d802"></div>
+<div id="xe7b422c9374b42ca9d5b7ad21949061a"></div>
 <script charset="utf-8" src="https://d3js.org/d3.v5.min.js"></script>
 
 <script charset="utf-8" src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
@@ -229,9 +229,9 @@ hr.tooltip-hr {
  };
 
  require(['d3'], function(d3){
-   var config = {"width": 800.0, "height": 550.0, "unit": "px", "dpi": 96, "margin": null, "layout": "euclidean", "temporal": false, "coordinates": true, "euclidean": true, "min_max_node_size": null, "min_max_edge_size": null, "keep_aspect_ratio": true, "forceCharge": -10, "forceRepel": -300, "forceAlpha": 0.1, "chargeDistance": 200, "repelDistance": 200, "velocityDecay": 0.2, "alphaMin": 0.1, "lookoutStrokeWidth": 1, "lookoutOpacity": 0.5, "lookoutWeight": 0.0, "radiusMinSize": 4, "radiusMaxSize": 16, "nodeTransitionDuration": 100, "defaultEdgeWeight": 1, "template": null, "css": null, "backend": ["tikz"], "fileformat": ["tex"], "latex_class_options": "", "interactiv": {"backend": ["d3js"], "fileformat": ["html"]}, "animation": {"enabled": false, "begin": null, "end": null, "steps": 20, "speed": 100, "unit": "seconds"}, "label": {"centered": true, "enabled": true, "color": "white"}, "label_centered": true, "label_enabled": true, "label_color": "white", "curved": true, "directed": true, "widgets": {"tooltip": {"enabled": false, "size": "100px"}, "save": {"title": "Save", "enabled": true, "tooltip": "Save the network as [svg] or [png]."}, "zoom": {"title": "Zoom", "enabled": true, "tooltip": "Zoom-in with [+] <br> zoom-out with [-] <br> or reset zoom with [Reset]. <br> Furthermore, with [Shift+mouse wheel] you can also zoom."}, "filter": {"title": "Filter", "enabled": false, "tooltip": "Filter the nodes base on given groups.", "groups": ["all"]}, "search": {"title": "Search", "enabled": true, "tooltip": "Search for a node in the network."}, "layout": {"title": "Layout", "enabled": true, "tooltip": "Change the layout of the Network. Per default a [Force] directed layout is used. If x and y coordinates are given, an [Coord] layout can be used."}, "animation": {"title": "Animation", "enabled": true, "tooltip": "Play and pause animation of the temproal network."}, "aggregation": {"title": "Aggregation", "enabled": true, "tooltip": "Aggregate time steps.", "past": 2, "future": 2, "aggregation": 1}}}
+   var config = {"width": 800.0, "height": 550.0, "unit": "px", "dpi": 96, "margin": null, "layout": "euclidean", "temporal": false, "coordinates": true, "euclidean": true, "min_max_node_size": null, "min_max_edge_size": null, "keep_aspect_ratio": true, "forceCharge": -20, "forceRepel": -300, "forceAlpha": 0.1, "restartAlpha": 1, "alphaMin": 0.001, "targetAlpha": 0, "chargeDistance": 800, "repelDistance": 200, "velocityDecay": 0.4, "lookoutStrokeWidth": 1, "lookoutOpacity": 0.5, "lookoutWeight": 0.0, "radiusMinSize": 4, "radiusMaxSize": 16, "nodeTransitionDuration": 100, "defaultEdgeWeight": 1, "targetAlphaDragStarted": 0.3, "targetAlphaDragEnd": 0.0, "linkStrengthMin": 0.0, "linkStrengthMax": 0.45, "template": null, "css": null, "backend": ["tikz"], "fileformat": ["tex"], "latex_class_options": "", "interactiv": {"backend": ["d3js"], "fileformat": ["html"]}, "animation": {"enabled": false, "begin": null, "end": null, "steps": 20, "speed": 100, "unit": "seconds"}, "label": {"centered": true, "enabled": true, "color": "white"}, "label_centered": true, "label_enabled": true, "label_color": "white", "curved": true, "directed": true, "widgets": {"tooltip": {"enabled": false, "size": "100px"}, "save": {"title": "Save", "enabled": true, "tooltip": "Save the network as [svg] or [png]."}, "zoom": {"title": "Zoom", "enabled": true, "tooltip": "Zoom-in with [+] <br> zoom-out with [-] <br> or reset zoom with [Reset]. <br> Furthermore, with [Shift+mouse wheel] you can also zoom."}, "filter": {"title": "Filter", "enabled": false, "tooltip": "Filter the nodes base on given groups.", "groups": ["all"]}, "search": {"title": "Search", "enabled": true, "tooltip": "Search for a node in the network."}, "layout": {"title": "Layout", "enabled": true, "tooltip": "Change the layout of the Network. Per default a [Force] directed layout is used. If x and y coordinates are given, an [Coord] layout can be used."}, "animation": {"title": "Animation", "enabled": true, "tooltip": "Play and pause animation of the temproal network."}, "aggregation": {"title": "Aggregation", "enabled": true, "tooltip": "Aggregate time steps.", "past": 2, "future": 2, "aggregation": 1}}}
 
-   var data = {"nodes": [{"uid": "a", "size": 30.0, "color": "orange", "opacity": 0.2, "coordinates": [144.0, 531.0], "id_as_label": true}, {"uid": "b", "size": 10.0, "color": "blue", "opacity": 0.2, "coordinates": [144.0, 19.0], "id_as_label": true}, {"uid": "c", "size": 20.0, "color": "red", "opacity": 0.2, "coordinates": [656.0, 531.0], "id_as_label": true}], "links": [{"uid": "0x25d6db89a90", "size": 2.0, "color": "black", "opacity": 1, "source": "a", "target": "b", "directed": true, "curved": 0.5}, {"uid": "0x25d6d9214f0", "size": 2.0, "color": "black", "opacity": 1, "source": "b", "target": "c", "directed": true, "curved": 0.5}]}
+   var data = {"nodes": [{"uid": "a", "size": 30.0, "color": "orange", "opacity": 0.2, "coordinates": [144.0, 531.0], "id_as_label": true}, {"uid": "b", "size": 10.0, "color": "blue", "opacity": 0.2, "coordinates": [144.0, 19.0], "id_as_label": true}, {"uid": "c", "size": 20.0, "color": "red", "opacity": 0.2, "coordinates": [656.0, 531.0], "id_as_label": true}], "links": [{"uid": "0x29469b72f40", "size": 2.0, "color": "black", "opacity": 1, "source": "a", "target": "b", "directed": true, "curved": 0.5}, {"uid": "0x29469b72820", "size": 2.0, "color": "black", "opacity": 1, "source": "b", "target": "c", "directed": true, "curved": 0.5}]}
 
    function tooltip(tooltipId, width){
      // Local variable to hold tooltip div for
@@ -332,11 +332,17 @@ hr.tooltip-hr {
      var forceCharge = config.forceCharge || -30;//-20; // -30
      var forceRepel = config.forceRepel || -100;//-200; // -100
      var forceAlpha = config.forceAlpha || 0.1;//0.0; // 0.1
+     var restartAlpha = config.restartAlpha || 1
      var chargeDistance = config.chargeDistance || 200;//400; //200
      var repelDistance = config.repelDistance || 200;//100; //200
      var velocityDecay = config.velocityDecay || .2;
-     var alphaMin = config.alphaMin || 0.1;
+     var alphaMin = config.alphaMin || 0.001;
+     var targetAlpha = config.targetAlpha || 0.2;
+     var targetAlphaDragStarted = config.targetAlphaDragStarted || 0.3;
+     var targetAlphaDragEnd = config.targetAlphaDragEnd || 0.0;
 
+     var linkStrengthMin = config.linkStrengthMin || 0.0;
+     var linkStrengthMax = config.linkStrengthMax || .45;
      var defaultEdgeWeight = config.defaultEdgeWeight || 1;
 
      var nodeTransitionDuration= config.nodeTransitionDuration || 100;
@@ -459,7 +465,7 @@ hr.tooltip-hr {
      // Functions to enable draging of the nodes
      // see https://observablehq.com/@d3/force-directed-graph
      function dragstarted(d) {
-       if (!d3.event.active) simulation.alphaTarget(0.2).restart();
+       if (!d3.event.active) simulation.alphaTarget(targetAlphaDragStarted).restart();
        d.fx = d.x;
        d.fy = d.y;
      }
@@ -470,7 +476,7 @@ hr.tooltip-hr {
      }
 
      function dragended(d) {
-       if (!d3.event.active) simulation.alphaTarget(0.2);
+       if (!d3.event.active) simulation.alphaTarget(targetAlphaDragEnd);
        d.fx = null;
        d.fy = null;
      }
@@ -541,6 +547,10 @@ hr.tooltip-hr {
        };
        };
      }
+
+     var linkStrengthScale = d3.scaleLinear()
+                               .range([linkStrengthMin, linkStrengthMax]);
+
 
      // Function which returns the object weight if defined
      // otherwise a default value
@@ -762,7 +772,7 @@ hr.tooltip-hr {
 
        // Now we need to set the alpha
        // of the simulation when we restart.
-       simulation.alpha(forceAlpha).restart();
+       simulation.alpha(restartAlpha).restart();
      }
 
      /*
@@ -778,7 +788,9 @@ hr.tooltip-hr {
        // the layout of the network is all
        // handled in a link force
        var linkForce = d3.forceLink()
-                         //.distance(10)
+                         //.id(function(d) { return d.uid; })
+                         .distance(50)
+                         //.strength(function(d){return linkStrengthScale(getWeight(d));})
                          .strength(function(d){return getWeight(d);})
                          .links(edgesData);
 
@@ -800,8 +812,8 @@ hr.tooltip-hr {
                                    .distanceMax(repelDistance));
 
        // kill x and y forces used in radial layout
-       // simulation.force('x', null);
-       // simulation.force('y', null);
+       //simulation.force('x', null);
+       //simulation.force('y', null);
 
        // setting taken from pathpy2
        // TODO fix theses setting
@@ -831,7 +843,7 @@ hr.tooltip-hr {
        // use many-body force to reduce node overlap
        // in node clusters.
        chargePower = 1.00;
-       simulation.force('charge', d3.forceManyBody().strength(charge));
+       simulation.force('charge', d3.forceManyBody().strength(forceCharge));
 
        // generate a list for all x and y coordinates
        var xs = [];
@@ -1290,7 +1302,7 @@ hr.tooltip-hr {
 
 
    var myNetwork = network(config);
-   myNetwork("#x6ed6a6d7b5da48a893ccc4fdd61ae3b0", data);
+   myNetwork("#xe7b422c9374b42ca9d5b7ad21949061a", data);
 
    /* function widgets(container,config,network){ */
 
@@ -1597,7 +1609,7 @@ hr.tooltip-hr {
       }; */
 
 
-   setupMenu("#x7642a5148a854cb0980545bb3529b806",config,myNetwork);
+   setupMenu("#xfc5252a3196044c6ab5b0ccf6f76d802",config,myNetwork);
 
 
    function sliderMenu(container,config,network){
@@ -2053,6 +2065,6 @@ hr.tooltip-hr {
    }; // End of sliderMenu
 
    if (config.temporal === true){
-     sliderMenu("#x7642a5148a854cb0980545bb3529b806",config,myNetwork);};
+     sliderMenu("#xfc5252a3196044c6ab5b0ccf6f76d802",config,myNetwork);};
  });
 </script>
