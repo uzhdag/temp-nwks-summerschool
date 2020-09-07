@@ -1,6 +1,6 @@
 # SSDS 2020  - [5<sup>th</sup> Int'l Summer School on Data Science](https://sites.google.com/view/ssdatascience2020)
 
-## Day 2 - Networks in Space and Time
+## Day 2 - Networks, Time, and Higher-Order Models
 
 On the second day of the school you will learn how network methods can be invalidated by sequential patterns in the transitions between nodes, and how higher-order models extend the applicability of networks while accounting for those patters.
 In the hands-on session you will learn how to use [pathpy](http://www.pathpy.net/), an Open Source python package providing higher-order network analytics for time series data.
