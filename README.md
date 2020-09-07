@@ -47,12 +47,12 @@ Instructions on getting started with pathpy are available at: http://www.pathpy.
 
 The suggested environment for the hands-on session is [Conda](https://conda.io/). 
 After installing Conda on your machine (instructions on linked website), you will need the following additional packages:
-`juypter` - provides an environment for interactive data science projects in your browser. We will extensively use so-called jupyter notebooks, which are interactive computable documents that you can also use to compile reports.
-`pathpy` - provides implementations of common scientific and statistical computing techniques for python.
-`scipy` - provides implementations of common scientific and statistical computing techniques for python.
-`numpy` - provides support for multi-dimensional arrays an matrices as well as high-level mathematical functions. This project originated as a smaller core part of scipy.
-`matplotlib` - provides advanced plotting functions based on the data types introduced in numpy. Visualisations can be directly integrated into jupyter notebooks.
-`pandas` - popular package for the management, analysis, and manipulation of multi-dimensional panel data (thus the name). Provides convenient interfaces for the import and export of data from files or databases.
+-`juypter` - provides an environment for interactive data science projects in your browser. We will extensively use so-called jupyter notebooks, which are interactive computable documents that you can also use to compile reports.
+-`pathpy` - provides implementations of common scientific and statistical computing techniques for python.
+-`scipy` - provides implementations of common scientific and statistical computing techniques for python.
+-`numpy` - provides support for multi-dimensional arrays an matrices as well as high-level mathematical functions. This project originated as a smaller core part of scipy.
+-`matplotlib` - provides advanced plotting functions based on the data types introduced in numpy. Visualisations can be directly integrated into jupyter notebooks.
+-`pandas` - popular package for the management, analysis, and manipulation of multi-dimensional panel data (thus the name). Provides convenient interfaces for the import and export of data from files or databases.
 
 
 To install the packages above, except for pathpy,just run the following command in the terminal for each of the packages above:
