@@ -67,11 +67,18 @@ This will create a new directory pathpy3 on your machine. Changing to this direc
 
 ##### References
 
+
+- Martin Rosvall, Alcides V Esquivel, Andrea Lancichinetti, Jevin D West, and Renaud Lambiotte: **Memory in network flows and its effects on spreading dynamics and community detection**. Nature communications (2014)
+
+- Petter Holme. 2015. **Modern temporal network theory: a colloquium**. The European Physical Journal B88, 9 (2015)
+
 - R Lambiotte, M Rosvall, I Scholtes: **From Networks to Optimal Higher-Order Models of Complex Systems**, Nature Physics, March 2019,  [arXiv 1806.05977](https://arxiv.org/abs/1806.05977)
 
 - I Scholtes: **When is a Network a Network? Multi-Order Graphical Model Selection in Pathways and Temporal Networks**, In KDD'17, February 2017, [arXiv 1702.05499](https://arxiv.org/abs/1702.05499)
 
 - I Scholtes, N Wider, R Pfitzner, A Garas, CJ Tessone, F Schweitzer: **Causality-driven slow-down and speed-up of diffusion in non-Markovian temporal networks**, In Nature Communications, September 2014, [arXiv 1307.4030](http://arxiv.org/abs/1307.4030)
+
+- Ingo Scholtes, Nicolas Wider, and Antonios Garas: **Higher-order aggregate networks in the analysis of temporal networks: path structures and centralities**. The European Physical Journal B89, 3 (02 Mar 2016), 61.  
 
 - V Perri, I Scholtes: **HOTVis: Higher-Order Time-Aware Visualisation of Dynamic Graphs**, Graph Drawing 2020, (https://arxiv.org/abs/1908.05976)
 
