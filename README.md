@@ -3,7 +3,6 @@
 ## Day 2 - Networks in Space and Time
 
 On the second day of the school you will learn how network methods can be invalidated by sequential patterns in the transitions between nodes, and how higher-order models extend the applicability of networks while accounting for those patters.
-
 In the hands-on session you will learn how to use [pathpy](http://www.pathpy.net/), an Open Source python package providing higher-order network analytics for time series data.
 
 ### Lecture materials and outline
@@ -28,21 +27,16 @@ TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
 - 13:30 - 15:30  Network science and Higher-Order Network Analysis with pathpy 
 
 [pathpy](http://www.pathpy.net/)  is an Open Source python package providing higher-order network analytics for time series data.
-
 pathpy is tailored to analyse time-stamped network data as well as sequential data that capture multiple short paths observed in a graph or network. Examples for data that can be analysed with pathpy include high-resolution time-stamped network data, dynamic social networks, user click streams on the Web, biological pathway data, citation graphs, passenger trajectories in transportation networks, or information propagation in social networks.
-
 Unifying the analysis of time series data on networks, pathpy provides efficient methods to extract causal or time-respecting paths in time-stamped social networks. It facilitates the analysis of higher-order dependencies and uses principled model selection techniques to infer models that capture both topological and temporal characteristics. It allows to answer the question when network models of time series data are justified and when higher-order models are needed.
-
 pathpy is fully integrated with jupyter, providing rich interactive visualisations of networks, temporal networks, higher-, and multi-order models. Visualisations can be exported to HTML5 files that can be shared and published on the Web
 
 ##### Hands-on environment setup instructions
 
 The hands-on session is organized as [Jupyter](http://jupyter.org)
 notebooks, which you can run on your local computer, 
-
 Preparation for the hands-on session consists of setting up a python
 environment, installing pathpy and Jupyter.
-
 Instructions on getting started with pathpy are available at: http://www.pathpy.net/tutorial/
 
 The suggested environment for the hands-on session is [Conda](https://conda.io/). 
