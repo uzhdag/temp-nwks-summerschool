@@ -10,17 +10,9 @@ In the hands-on session you will learn how to use [pathpy](http://www.pathpy.net
 
 #### Networks, Time, and Higher-Order Models ([Ingo Scholtes](https://www.ingoscholtes.net/)
 
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
-TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText
+Network-based data mining techniques such as graph mining, (social) network analysis, link prediction and graph clustering are a cornerstone for data science applications in computer science, computational social science, and the life sciences. They help to detect patterns in large data sets that capture \dyadic relations between pairs of genes, species, humans, or documents and have improved our understanding of complex networks. While the potential of analysing graph or network models is undisputed, we increasingly have access to data on networks that contain more than just dyadic relations. Consider, e.g., data on user clickstreams in the Web, timestamped social networks, gene regulatory pathways, or timestamped financial transactions. These are examples for time-resolved or sequential relational data that not only tell us who is related to whom but also when and in which order relations occur. 
 
-
-
-
+Such data pose a important challenges for state-of-the-art graph mining and network analysis techniques. Most of those techniques discard information on the microscopic timing and ordering of links, which is, however, the foundation of so-called time-respecting paths or causal paths. Recent works have exposed that the timing and ordering of relations in such data can introduce higher-order, non-dyadic dependencies that are not captured by state-of-the-art graph representations. Addressing this critical issue when analyzing time-series data, this lecture motivates challenges in the modelling and analysis of temporal networks, and shows how we can address them through higher-order models of causal paths.
 
 #### Hands-on sessions ([Vincenzo Perri](https://www.ifi.uzh.ch/en/dag/people/perri.html))
 - 10:30 - 12:00  Data science with python and introduction to pathpy 
